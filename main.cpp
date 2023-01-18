@@ -68,8 +68,8 @@ void pwc(char *str, int color, HANDLE conhan)
 void rainbow(char *str, HANDLE conhan)
 {
 	for(int i = 0; i < strlen(str); i++){
-    	SetConsoleTextAttribute(conhan, (i%7)+9);
-        std::cout << str[i];
-    }
-    SetConsoleTextAttribute(conhan, 15);
+		SetConsoleTextAttribute(conhan, (i%7)+9);
+		std::cout << str[i];
+	}
+	SetConsoleTextAttribute(conhan, 15);
 }
