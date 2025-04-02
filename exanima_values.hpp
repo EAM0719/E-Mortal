@@ -8,4 +8,4 @@
 
 //Addresses:
 #define player_entity 0x0071E7B4
-#define health_offset 0xB30 // The max health offset directly follows this (by four bytes).
+#define health_offset 0xB30 // The max health offset directly follows this (by 4 bytes).
